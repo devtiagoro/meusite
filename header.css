@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+}
+
+#menu, #logo, #btn-contato {
+    text-align: center;
+}
+
+nav {
+    width: 95%;
+    padding: 10px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+#menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .8rem;
+    padding: 5px 20px;
+    /* transition: border-bottom 1s ease; */
+}
+
+#menu a:hover {
+    border-radius: 10px;
+    border-bottom: .5px solid #45fbbd;
+    transition: 1s;
+}
+
+#logo img {
+    width: 50px;
+    margin-left: 20px;
+    padding: 5px
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: #0B1f27;
+    cursor: pointer;
+}

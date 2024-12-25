@@ -1,0 +1,99 @@
+#home {
+color: white;
+}
+
+.conteudo-home {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 74.36px);
+}
+
+.txt-home {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.destaque {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 15px;
+    
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 10px;
+    background-color: #45fbbd;
+    color: #000714;
+    font-size: .8rem;
+
+}
+
+h1 {
+    font-size: 3.8rem;
+    line-height: 75px;
+}
+
+.txt-home p {
+    font-size: .8rem;
+    line-height: 22px;
+}
+
+.txt-home p:nth-of-type(2) {
+    font-size: .8rem;
+    padding: 10px 0 15px;
+}
+
+.txt-home-dados {
+    display: flex;
+    gap: 30px;
+}
+
+.txt-home-clientes, .txt-home-projetos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.txt-home-clientes span, .txt-home-projetos span {
+    font-size: 1.7rem;
+    display: flex;
+    align-items: start;
+}
+
+.txt-home-clientes p, .txt-home-projetos p {
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.icons-home {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0px 0px 1px;
+}
+
+.icons-home img {
+    width: 35px;
+    transition: border-bottom .8s ease;
+
+}
+
+.icons-home img:hover {
+    border-bottom: 1px solid #45fbbd;
+}
+
+.img-home {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-home img {
+    width: 82%;
+    height: 70%;
+    border-radius: 50px;
+}

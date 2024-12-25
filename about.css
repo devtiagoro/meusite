@@ -1,0 +1,77 @@
+#sobre {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#boxes_sobre {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.box {
+    width: 100%;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border-radius: 10px;
+    border: 1px solid #1feba45e;
+    backdrop-filter: blur(10px);
+}
+
+.box p {
+    text-align: justify;
+}
+
+#txt_sobre {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#txt_sobre button {
+    width: 30%;
+    margin-top: 20px;
+}
+
+#txt_sobre span {
+    font-size: .7155rem;
+    letter-spacing: 2px;
+}
+
+#txt_sobre h2 {
+    font-size: 2rem;
+}
+
+.box a {
+    color: white;
+    text-decoration: none;
+    font-size: .8rem;
+    transition: color .5s ease;
+}
+
+.box a:hover {
+    color: #99f2ff;
+}
+
+.box a::after {
+    content: "";
+    background-image: url(assets/setadireita.png);
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    display: inline-block;
+    position: relative;
+    bottom: -6px;
+    left: 5px;
+}
+
