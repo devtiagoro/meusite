@@ -1,0 +1,65 @@
+#processos {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    color:  #fff;
+    text-align: center;
+}
+
+#processos span {
+    padding-top: 20px;
+    font-size: .7155rem;
+    letter-spacing: 3px;
+}
+
+#processos h2 {
+    font-size: 2rem;
+}
+
+#processos p:first-of-type {
+    margin-bottom: 30px;
+    font-size: .8rem;
+}
+
+.boxes-etapas {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.etapas {
+    width: 35%;
+    border: 1px solid #0b1f27;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-image: url(assets/fundoboxes.png);
+    background-position: center bottom;
+    background-size: cover;
+
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.etapas h4 {
+    padding-top: 15px;  
+}
+
+.etapas p {
+    width: 95%;
+    height: 120px;
+    padding-top: 15px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: start;
+    text-align: center;
+    
+}

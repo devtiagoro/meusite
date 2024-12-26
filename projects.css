@@ -30,13 +30,13 @@
     display: flex;
     flex-direction: column;
     border: 1px solid #99f2ff;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #0b1f27;;    
 
 }
 
 .box-projetos img {
-    width: 100%;
+    width: 100%; 
     border-radius: 10px 10px 0 0;
     padding: 3px;
 }
