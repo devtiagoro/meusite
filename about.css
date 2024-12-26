@@ -60,7 +60,7 @@
 }
 
 .box a:hover {
-    color: #99f2ff;
+    color: var(--color-primary-6);
 }
 
 .box a::after {
@@ -91,13 +91,18 @@
         gap: 20px;
         padding: 30px 0 10px;
     }
+
+    .btn {
+        width: 60%;
+    }
     
     .destaque {
-        width: 100%
+        width: 100%;
     }
 
-    #txt_sobre button {
+    #txt_sobre a {
         width: 70%;
+        margin-top: 30px;
     }
 
     #boxes_sobre {
@@ -110,6 +115,11 @@
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
+    }
+
+    .btn {
+        width: 70%;
+        margin: 20px auto -20px;
     }
 
     #boxes_sobre {

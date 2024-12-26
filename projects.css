@@ -6,13 +6,13 @@
 
 #projetos span {
     padding-top: 50px;
-    color:  #fff;
+    color:  var(--color-neutra-0);
     font-size: .7155rem;
     letter-spacing: 3px;
 }
 
 #projetos h2 {
-    color: #fff;
+    color: var(--color-neutra-0);
     margin-bottom: 20px;
     font-size: 2rem;
 }
@@ -26,12 +26,12 @@
 }
 
 .box-projetos {
-    width: 23%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    border: 1px solid #99f2ff;
+    border: 1px solid var(--color-primary-6);
     border-radius: 10px;
-    background-color: #0b1f27;;    
+    background-color: var(--color-primary-2);;    
 
 }
 
@@ -51,13 +51,13 @@
     text-align: center;
     padding: 1px 2px;
     margin-right: 5px;
-    color: #000714;
-    background-color: #99f2ff;
+    color: var(--color-primary-1);
+    background-color: var(--color-primary-6);
     border-radius: 10px;
 }
 
 .txt-projetos {
-    color: #fff;
+    color: var(--color-neutra-0);
     padding: 8px;
     display: flex;
     flex-direction: column;
@@ -72,12 +72,12 @@
 .txt-projetos a {
     font-size: .7rem;
     text-decoration: none;
-    color: #fff;
+    color: var(--color-neutra-0);
     transition: color .5s ease;
 }
 
 .txt-projetos a:hover {
-    color: #99f2ff;
+    color: var(--color-primary-6);
 }
 
 .link-opcoes-projetos {
@@ -96,16 +96,16 @@
     justify-content: center;
 
     border-radius: 10px;
-    background-color: #fff;
-    color: #000714;
+    background-color: var(--color-neutra-0);
+    color: var(--color-primary-1);
     font-weight: 600;
     font-size: .8rem;
     transition: background-color .5s ease;
 }
 
 .link-opcoes-projetos a:hover {
-    background-color: #99f2ff;
-    color: #000714;
+    background-color: var(--color-primary-6);
+    color: var(--color-primary-1);
 }
 
 @media screen and (max-width: 1200px) {

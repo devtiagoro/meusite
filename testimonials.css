@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
-    color:  #fff;
+    color:  var(--color-neutra-0);
 }
 
 #depoimentos span {
@@ -27,13 +27,13 @@
     width: 30%;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 0px 0px 30px #0b1f27;
+    box-shadow: 0px 0px 30px var(--color-primary-2);
     transition: background-color .5s ease;
 }
 
 .box-depoimentos:hover {
-    background-color: #fff;
-    color: #000714;
+    background-color: var(--color-neutra-0);
+    color: var(--color-primary-1);
 
 }
 
@@ -58,13 +58,13 @@ cite {
     align-items: center;
 
     margin: 50px 10px;
-    background-color: #fff;
+    background-color: var(--color-neutra-0);
     border-radius: 15px;
     padding: 20px;
 }
 
 .txt-banner-depoimentos {
-    color: #000714;
+    color: var(--color-primary-1);
 }
 
 .txt-banner-depoimentos h5 {
@@ -85,16 +85,16 @@ cite {
 
 .btn-banner {
     width: 20%;
-    background-color: #1feba3;
-    color: #000714;
+    background-color: var(--color-primary-4);
+    color: var(--color-primary-1);
     padding: 10px 0;
     border-radius: 13px;
     transition: background-color 1s ease;
 }
 
 .btn-banner:hover {
-    background-color: #000714;
-    color: #fff;
+    background-color: var(--color-primary-1);
+    color: var(--color-neutra-0);
 }
 
 
@@ -143,5 +143,46 @@ cite {
 
     .btn-banner {
         padding: 8px 0;
+    }
+}
+
+
+@media screen and (max-width: 805px) {
+    .banner-depoimentos a {
+        width: 80%;
+    }
+
+    .txt-banner-depoimentos {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .txt-banner-depoimentos h5 {
+        width: 100%;
+        font-size: 1.7rem;
+    }
+
+    .txt-banner-depoimentos p {
+        width: 100%;
+    }
+
+    .rate-depoimentos {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #boxes_depoimentos {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .box-depoimentos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: left;
+
     }
 }

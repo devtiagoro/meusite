@@ -24,17 +24,37 @@ nav {
 }
 
 #menu a {
-    color: #fff;
+    color: var(--color-neutra-0);
     text-decoration: none;
-    font-size: .8rem;
+    font-size: .832rem;
     padding: 5px 20px;
     /* transition: border-bottom 1s ease; */
 }
 
 #menu a:hover {
     border-radius: 10px;
-    border-bottom: .5px solid #45fbbd;
+    border-bottom: .5px solid var(--color-primary-5);
     transition: 1s;
+}
+
+#menu a:last-of-type {
+    color: var(--color-primary-1);
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color .4s ease;
+}
+
+#menu a:last-of-type:hover {
+    background-color: var(--color-primary-2);
+    color: var(--color-primary-5);
+    border: 1px solid var(--color-primary-5);
+}
+
+.btn-header {
+    width: 30%;
+
+    background-color: var(--color-primary-5);
+    color: var(--color-primary-1);
 }
 
 #logo img {
@@ -46,7 +66,7 @@ nav {
 button {
     background: transparent;
     border: none;
-    color: #0B1f27;
+    color: var(--color-primary-2);
     cursor: pointer;
 }
 @media screen and (max-width: 805px) {

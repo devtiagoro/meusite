@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    --color-primary-1: #000714;
+    --color-primary-2: #0b1f27;
+    --color-primary-3: #1d423e;
+    --color-primary-4: #1feba3;
+    --color-primary-5: #45fbbd;
+    --color-primary-6: #99f2ff;
+
+    --color-neutra-0: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,16 +24,16 @@ body {
 }
 
 .btn-default {
-    background-color: #45fbbd;
+    background-color: var(--color-primary-5);
     border-radius: 10px;
     transition: background-color .4s ease;
     padding: 10px 20px;
 }
 
 .btn-default:hover {
-    color: #45fbbd;
-    background-color: #0B1f27;
-    border: 1px solid #45fbbd;
+    color: var(--color-primary-5);
+    background-color: var(--color-primary-2);
+    border: 1px solid var(--color-primary-5);
 }
 
 .conteudo {
@@ -32,4 +43,29 @@ body {
 
 p {
     font-size: .8rem;
+}
+
+.btn {
+    width: 30%;
+    padding: 10px 0;
+    margin-top: 20px;
+
+    background-color: var(--color-primary-5);
+    color: var(--color-primary-1);
+    border-radius: 8px;
+    
+    text-align: center;
+    
+    transition: background-color .4s ease;
+}
+
+.btn:hover {
+    background-color: var(--color-primary-2);
+    color: var(--color-primary-5);
+    border: 1px solid var(--color-primary-5);
+}
+
+a {
+    text-decoration: none;
+    font-size: .911rem;
 }

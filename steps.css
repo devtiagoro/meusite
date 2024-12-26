@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
-    color:  #fff;
+    color:  var(--color-neutra-0);
     text-align: center;
 }
 
@@ -32,7 +32,7 @@
 
 .etapas {
     width: 35%;
-    border: 1px solid #0b1f27;
+    border: 1px solid var(--color-primary-2);
 
     display: flex;
     flex-direction: column;
@@ -77,16 +77,32 @@
 
 .btn-etapas {
     width: 20%;
-    background-color: #1feba3;
-    color: #000714;
+    background-color: var(--color-primary-4);
+    color: var(--color-primary-1);
     padding: 10px 0;
     border-radius: 13px;
     transition: background-color 1s ease;
 }
 
 .btn-etapas:hover {
-    background-color: #fff;
-    color: #000714;
+    background-color: var(--color-neutra-0);
+    color: var(--color-primary-1);
+}
+
+
+@media screen and (max-width: 805px) {
+    #metodo a {
+        width: 40%;
+        margin-top: 30px;
+    }
+
+    .boxes-etapas {
+        width: 100%;
+    }
+
+    .etapas {
+        width: 45%;
+    }
 }
 
 
