@@ -1,4 +1,4 @@
-#processos {
+#metodo {
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
@@ -6,17 +6,17 @@
     text-align: center;
 }
 
-#processos span {
+#metodo span {
     padding-top: 20px;
     font-size: .7155rem;
     letter-spacing: 3px;
 }
 
-#processos h2 {
+#metodo h2 {
     font-size: 2rem;
 }
 
-#processos p:first-of-type {
+#metodo p:first-of-type {
     margin-bottom: 30px;
     font-size: .8rem;
 }
@@ -54,12 +54,37 @@
 
 .etapas p {
     width: 95%;
-    height: 120px;
+    height: 80px;
     padding-top: 15px;
     margin: 0 auto;
 
     display: flex;
     align-items: start;
     text-align: center;
-    
+}
+
+#metodo a {
+    height: auto;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px auto 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-etapas {
+    width: 20%;
+    background-color: #1feba3;
+    color: #000714;
+    padding: 10px 0;
+    border-radius: 13px;
+    transition: background-color 1s ease;
+}
+
+.btn-etapas:hover {
+    background-color: #fff;
+    color: #000714;
 }

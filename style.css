@@ -16,7 +16,7 @@ body {
     background-color: #45fbbd;
     border-radius: 10px;
     transition: background-color .4s ease;
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 .btn-default:hover {

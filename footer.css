@@ -1,0 +1,29 @@
+footer {
+    width: 100%;
+}
+
+.conteudo-footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+}
+
+.icons-footer {
+    display: flex;
+    gap: 35px;
+    margin: 10px 0px 0px 1px;
+}
+
+.icons-footer img {
+    width: 35px;
+}
+
+.copy {
+    font-size: 12px;
+}
