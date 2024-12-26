@@ -75,41 +75,6 @@
     left: 5px;
 }
 
-
-@media screen and (max-width: 1200px) {
-    #sobre {
-        justify-content: space-evenly;
-    }
-    
-    #txt_sobre button {
-        width: 50%;
-    } 
-}
-
-@media screen and (max-width: 805px) {
-    #sobre {
-        gap: 20px;
-        padding: 30px 0 10px;
-    }
-
-    .btn {
-        width: 60%;
-    }
-    
-    .destaque {
-        width: 100%;
-    }
-
-    #txt_sobre a {
-        width: 70%;
-        margin-top: 30px;
-    }
-
-    #boxes_sobre {
-        width: 55%;
-    }
-}
-
 @media screen and (max-width: 430px) {
     #sobre {
         flex-direction: column;
@@ -138,4 +103,39 @@
     .box p {
         text-align: center;
     }
+}
+
+@media screen and (max-width: 805px) {
+    #sobre {
+        gap: 20px;
+        padding: 30px 0 10px;
+    }
+
+    .btn {
+        width: 60%;
+    }
+    
+    .destaque {
+        width: 100%;
+    }
+
+    #txt_sobre a {
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    #boxes_sobre {
+        width: 55%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    #sobre {
+        justify-content: space-evenly;
+    }
+    
+    #txt_sobre button {
+        width: 50%;
+    } 
 }
