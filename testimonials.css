@@ -1,0 +1,91 @@
+#depoimentos {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    color:  #fff;
+}
+
+#depoimentos span {
+    padding-top: 50px;
+    font-size: .7155rem;
+    letter-spacing: 3px;
+}
+
+#depoimentos h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#boxes_depoimentos {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.box-depoimentos {
+    width: 30%;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 30px #0b1f27;
+}
+
+cite {
+    font-size: .8rem;
+}
+
+.rate-depoimentos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rate-star i {
+    color: yellow;
+}
+
+.banner-depoimentos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 50px 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.txt-banner-depoimentos {
+    color: #000714;
+}
+
+.txt-banner-depoimentos h5 {
+    font-size: 2rem;
+}
+
+.txt-banner-depoimentos p {
+    width: 80%;
+    font-size: .8rem;
+}
+
+.banner-depoimentos a {
+    height: auto;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-banner {
+    width: 20%;
+    background-color: #1feba3;
+    color: #000714;
+    padding: 10px 0;
+    border-radius: 13px;
+    transition: background-color 1s ease;
+}
+
+.btn-banner:hover {
+    background-color: #000714;
+    color: #fff;
+}
