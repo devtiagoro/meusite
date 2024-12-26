@@ -66,7 +66,7 @@
 
 .txt-projetos p {
     font-size: .8rem;
-    height: 140px;
+    height: auto;
 }
 
 .txt-projetos a {
@@ -83,12 +83,14 @@
 .link-opcoes-projetos {
     width: 100%;
     display: flex;
-    gap: 8px
+    gap: 8px;
+    justify-content: space-between;
 }
 
 .link-opcoes-projetos a {
     width: 50%;
     padding: 6px 2px;
+    margin-top: 20px;
 
     display: flex;
     justify-content: center;
@@ -104,4 +106,33 @@
 .link-opcoes-projetos a:hover {
     background-color: #99f2ff;
     color: #000714;
+}
+
+@media screen and (max-width: 1200px) {
+    .box-projetos {
+        width: 31%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .box-projetos {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box-projetos {
+        width: 91%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #projetos {
+        text-align: center;
+    }
+
+    .tecno {
+        justify-content: center;
+    }
 }

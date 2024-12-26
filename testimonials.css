@@ -96,3 +96,52 @@ cite {
     background-color: #000714;
     color: #fff;
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 430px) {
+    #depoimentos {
+        text-align: center;
+    }
+
+    #boxes_depoimentos {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .box-depoimentos {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .banner-depoimentos {
+        flex-direction: column;
+        text-align: center;
+        margin: 30px auto 0;
+
+    }
+
+    .txt-banner-depoimentos h5 {
+        font-size: 1.7rem;
+    }
+    
+    .txt-banner-depoimentos p {
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .banner-depoimentos a {
+        width: 80%;
+        margin-top: 18px;
+    }
+
+    .btn-banner {
+        padding: 8px 0;
+    }
+}

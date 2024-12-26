@@ -49,3 +49,16 @@ button {
     color: #0B1f27;
     cursor: pointer;
 }
+@media screen and (max-width: 805px) {
+    #menu {
+        display: none;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    #logo img {
+        margin-left: 0px;
+    }
+}

@@ -54,7 +54,7 @@
 
 .etapas p {
     width: 95%;
-    height: 80px;
+    height: auto;
     padding-top: 15px;
     margin: 0 auto;
 
@@ -87,4 +87,27 @@
 .btn-etapas:hover {
     background-color: #fff;
     color: #000714;
+}
+
+
+@media screen and (max-width: 430px) {
+    .boxes-etapas {
+        width: 100%;
+        display: flex;
+        gap: 15px;
+    }
+
+    .etapas {
+        width: 100%;
+        height: auto;
+    }
+
+    #metodo a {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .btn-etapas {
+        padding: 8px 0;
+    }
 }

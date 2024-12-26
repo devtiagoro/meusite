@@ -75,3 +75,57 @@
     left: 5px;
 }
 
+
+@media screen and (max-width: 1200px) {
+    #sobre {
+        justify-content: space-evenly;
+    }
+    
+    #txt_sobre button {
+        width: 50%;
+    } 
+}
+
+@media screen and (max-width: 805px) {
+    #sobre {
+        gap: 20px;
+        padding: 30px 0 10px;
+    }
+    
+    .destaque {
+        width: 100%
+    }
+
+    #txt_sobre button {
+        width: 70%;
+    }
+
+    #boxes_sobre {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #sobre {
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    #boxes_sobre {
+        width: 100%;
+    }
+
+    #txt_sobre {
+        width: 100%;
+    }
+
+    #txt_sobre button {
+        margin: 25px auto 0px;
+
+    }
+
+    .box p {
+        text-align: center;
+    }
+}

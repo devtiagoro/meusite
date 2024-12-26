@@ -27,3 +27,23 @@ footer {
 .copy {
     font-size: 12px;
 }
+
+
+@media screen and (max-width: 430px) {
+    .conteudo-footer {
+        flex-direction: column-reverse;
+    }
+
+    .copy {
+        font-size: 10px;
+    }
+
+    .icons-footer {
+        justify-content: center;
+        gap: 20px
+    }
+
+    .icons-footer img {
+        width: 30px;
+    }
+}
