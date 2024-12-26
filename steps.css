@@ -89,6 +89,20 @@
     color: var(--color-primary-1);
 }
 
+@media screen and (max-width: 805px) {
+    #metodo a {
+        width: 40%;
+        margin-top: 30px;
+    }
+
+    .boxes-etapas {
+        width: 100%;
+    }
+
+    .etapas {
+        width: 45%;
+    }
+}
 
 @media screen and (max-width: 430px) {
     .boxes-etapas {
@@ -109,21 +123,6 @@
 
     .btn-etapas {
         padding: 8px 0;
-    }
-}
-
-@media screen and (max-width: 805px) {
-    #metodo a {
-        width: 40%;
-        margin-top: 30px;
-    }
-
-    .boxes-etapas {
-        width: 100%;
-    }
-
-    .etapas {
-        width: 45%;
     }
 }
 

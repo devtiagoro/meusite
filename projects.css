@@ -108,13 +108,16 @@
     color: var(--color-primary-1);
 }
 
-@media screen and (max-width: 430px) {
-    #projetos {
-        text-align: center;
+@media screen and (max-width: 1200px) {
+    .box-projetos {
+        width: 31%;
     }
 
-    .tecno {
-        justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .box-projetos {
+        width: 48%;
     }
 }
 
@@ -124,15 +127,12 @@
     }
 }
 
-@media screen and (max-width: 900px) {
-    .box-projetos {
-        width: 48%;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .box-projetos {
-        width: 31%;
+@media screen and (max-width: 430px) {
+    #projetos {
+        text-align: center;
     }
 
+    .tecno {
+        justify-content: center;
+    }
 }
