@@ -195,6 +195,7 @@ h1 {
     .txt-home p:first-child {
         width: 90%;
         margin: 0px auto 20px;
+        font-size: .9rem;
     }
 
     .img-home {

@@ -86,7 +86,7 @@
 }
 
 
-@media screen and (max-width: 805px) {
+@media screen and (min-width: 430px) and (max-width: 805px) {
     #sobre {
         gap: 20px;
         padding: 30px 0 10px;
@@ -95,10 +95,7 @@
     .btn {
         width: 60%;
     }
-    
-    .destaque {
-        width: 100%;
-    }
+
 
     #txt_sobre a {
         width: 70%;
@@ -112,14 +109,14 @@
 
 @media screen and (max-width: 430px) {
     #sobre {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: space-between;
         text-align: center;
     }
 
     .btn {
         width: 70%;
-        margin: 20px auto -20px;
+        margin: 20px auto 10px;
     }
 
     #boxes_sobre {
