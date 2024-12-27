@@ -41,7 +41,7 @@ h1 {
 }
 
 .txt-home p:nth-of-type(2) {
-    font-size: .87rem;
+    font-size: .97rem;
     padding: 10px 0 15px;
 }
 
@@ -64,6 +64,7 @@ h1 {
 
 .txt-home-clientes p, .txt-home-projetos p {
     line-height: 15px;
+    font-size: .95rem;
     display: flex;
     align-items: center;
 }
@@ -75,13 +76,7 @@ h1 {
 }
 
 .icons-home img {
-    width: 35px;
-    transition: border-bottom .8s ease;
-
-}
-
-.icons-home img:hover {
-    border-bottom: 1px solid var(--color-primary-5);
+    width: 40px;
 }
 
 .img-home {
@@ -97,3 +92,136 @@ h1 {
     height: 70%;
     border-radius: 50px;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {    
+    .txt-home {
+        width: 60%;
+    }
+    
+    .destaque {
+        width: 60%;
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .txt-home p:nth-of-type(2) {
+        font-size: .96rem;
+        padding: 0px 0 8px;
+        margin-bottom: 20px;
+    }
+
+    .txt-home-projetos p, .txt-home-clientes p {
+        font-size: .95rem;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 3.7rem;
+        line-height: 65px;
+        margin-bottom: 20px;
+    }
+
+    
+    .img-home {
+        width: 40%;
+    }
+    
+    .img-home img {
+        width: 100%;
+        height: auto;
+        border-radius: 100%
+    }
+
+    .icons-home img {
+        width: 45px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {    
+    .txt-home {
+        width: 100%;
+        justify-content: space-evenly
+    }
+
+    .txt-home p:nth-of-type(2) {
+        font-size: 1rem;
+    }
+
+    .destaque {
+        width: 60%;
+        font-size: 2rem;
+    }
+
+    .destaque p {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        line-height: 65px;
+    }
+
+    .txt-home p:nth-of-type(2) {
+        font-size: 1rem;
+        margin: -30px 0px 0px 0px;
+    }
+
+    .txt-home-dados {
+        margin-top: -30px;
+    }
+    
+    .img-home {
+        display: none;
+    }
+
+    .icons-home {
+        margin: -10px 0px 0px 1px;
+    }
+
+    .txt-home-projetos p, .txt-home-clientes p {
+        font-size: .95rem;
+        text-align: left;
+    }
+
+    .icons-home img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .txt-home {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly
+    }
+
+    .destaque {
+        width: 80%;
+    }
+    
+    h1 {
+        font-size: 2.8rem;
+        line-height: 53px;
+    }
+
+    .txt-home p:nth-of-type(2) {
+        font-size: .94rem;
+        padding: 0px 0 8px;
+    }
+
+    .txt-home-projetos p, .txt-home-clientes p {
+        font-size: .95rem;
+        text-align: left;
+    }
+
+    .img-home {
+        display: none;
+    }
+
+    .icons-home {
+        margin: -10px 0px 0px 1px;
+    }
+}
+

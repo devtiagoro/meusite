@@ -62,3 +62,13 @@ nav {
     margin-left: 20px;
     padding: 5px
 }
+
+@media (max-width: 768px) {
+    #logo {
+        margin: 0 auto;
+    }
+    
+    #menu {
+        display: none;
+    }
+}
