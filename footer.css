@@ -40,10 +40,20 @@ footer {
 
     .icons-footer {
         justify-content: center;
-        gap: 20px
+        gap: 20px;
     }
 
     .icons-footer img {
         width: 30px;
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 805px) {
+    .conteudo-footer {
+        flex-direction: column-reverse;
+    }
+    
+    .copy {
+        font-size: 12px;
     }
 }

@@ -115,15 +115,18 @@
 
 }
 
-@media screen and (max-width: 900px) {
+
+@media screen and (min-width: 431px) and (max-width: 805px) {
     .box-projetos {
         width: 48%;
     }
-}
 
-@media screen and (max-width: 600px) {
-    .box-projetos {
-        width: 91%;
+    #projetos span {
+        text-align: center;
+    }
+    
+    #projetos h2 {
+        text-align: center;
     }
 }
 
@@ -134,5 +137,9 @@
 
     .tecno {
         justify-content: center;
+    }
+
+    .box-projetos {
+        width: 100%;
     }
 }

@@ -142,9 +142,27 @@ cite {
 }
 
 
-@media screen and (max-width: 805px) {
+@media screen and (min-width: 431px) and (max-width: 805px) {
+    #depoimentos span {
+        text-align: center;
+    }
+    
+    #depoimentos h2 {
+        text-align: center;
+    }
+
+    .banner-depoimentos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-depoimentos p {
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
     .banner-depoimentos a {
-        width: 80%;
+        width: 60%;
     }
 
     .txt-banner-depoimentos {

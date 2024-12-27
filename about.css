@@ -90,21 +90,29 @@
     #sobre {
         gap: 20px;
         padding: 30px 0 10px;
+        flex-direction: column-reverse;
     }
 
     .btn {
         width: 60%;
+        margin: 20px auto 10px;
+    }
+
+    #txt_sobre {
+        width: 100%;
+        text-align: center;
     }
 
 
     #txt_sobre a {
-        width: 70%;
+        width: 40%;
         margin-top: 30px;
     }
 
     #boxes_sobre {
-        width: 55%;
+        width: 90%;
     }
+
 }
 
 @media screen and (max-width: 430px) {
