@@ -107,39 +107,3 @@
     background-color: var(--color-primary-6);
     color: var(--color-primary-1);
 }
-
-@media screen and (max-width: 1200px) {
-    .box-projetos {
-        width: 31%;
-    }
-
-}
-
-
-@media screen and (min-width: 431px) and (max-width: 805px) {
-    .box-projetos {
-        width: 48%;
-    }
-
-    #projetos span {
-        text-align: center;
-    }
-    
-    #projetos h2 {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    #projetos {
-        text-align: center;
-    }
-
-    .tecno {
-        justify-content: center;
-    }
-
-    .box-projetos {
-        width: 100%;
-    }
-}
