@@ -64,8 +64,12 @@
     gap: 13px;
 }
 
+.txt-projetos h4 {
+    font-size: 1.2rem;
+}
+
 .txt-projetos p {
-    font-size: .8rem;
+    font-size: .95rem;
     height: auto;
 }
 
@@ -99,11 +103,43 @@
     background-color: var(--color-neutra-0);
     color: var(--color-primary-1);
     font-weight: 600;
-    font-size: .8rem;
+    font-size: .97rem;
     transition: background-color .5s ease;
 }
 
 .link-opcoes-projetos a:hover {
     background-color: var(--color-primary-6);
     color: var(--color-primary-1);
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {    
+    .link-opcoes-projetos a {
+        font-size: .89rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {    
+    #projetos {
+        align-items: center;
+    }
+    .box-projetos {
+        width: 48%;
+        flex: 1 1 auto;
+    }
+
+    .link-opcoes-projetos a {
+       
+        font-size: .89rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #projetos {
+        align-items: center;
+    }
+
+    .box-projetos {
+        width: 90%;
+    }
 }

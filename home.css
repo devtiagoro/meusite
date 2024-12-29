@@ -16,7 +16,7 @@ color: white;
 }
 
 .destaque {
-    width: 40%;
+    width: 60%;
     padding: 8px;
     margin-bottom: 15px;
     
@@ -99,7 +99,7 @@ h1 {
     }
     
     .destaque {
-        width: 60%;
+        width: 70%;
         font-size: 2rem;
         margin-bottom: 30px;
     }

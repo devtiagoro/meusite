@@ -34,11 +34,10 @@
 .box-depoimentos:hover {
     background-color: var(--color-neutra-0);
     color: var(--color-primary-1);
-
 }
 
 cite {
-    font-size: .8rem;
+    font-size: .89rem;
 }
 
 .rate-depoimentos {
@@ -69,16 +68,17 @@ cite {
 
 .txt-banner-depoimentos h5 {
     font-size: 2rem;
+    margin-bottom: 8px;
 }
 
 .txt-banner-depoimentos p {
     width: 80%;
-    font-size: .8rem;
+    font-size: .97rem;
 }
 
 .banner-depoimentos a {
     height: auto;
-    width: 20%;
+    width: 30%;
     text-align: center;
     text-decoration: none;
 }
@@ -95,4 +95,92 @@ cite {
 .btn-banner:hover {
     background-color: var(--color-primary-1);
     color: var(--color-neutra-0);
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {    
+    
+
+    .banner-depoimentos a {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .box-depoimentos {
+        flex: 1 1 auto;
+    }
+
+    .txt-banner-depoimentos p {
+        width: 95%;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {    
+    #depoimentos {
+        align-items: center;
+        text-align: center;
+    }
+
+    #boxes_depoimentos {
+        flex-direction: column;
+    }
+
+    .box-depoimentos {
+        width: 100%;
+    }
+
+    .banner-depoimentos {
+        flex-direction: column;
+    }
+
+    .txt-banner-depoimentos p {
+        width: 100%;
+        font-size: .97rem;
+    }
+
+    .banner-depoimentos a {
+        width: 60%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #depoimentos {
+        align-items: center;
+        text-align: center;
+    }
+
+    #depoimentos h2 {
+        text-align: center;
+    }
+
+    #boxes_depoimentos {
+        flex-direction: column;
+    }
+
+    .box-depoimentos {
+        width: 100%;
+    }
+
+    .box-depoimentos cite {
+        font-size: .89rem;
+    }
+
+    .banner-depoimentos {
+        flex-direction: column;
+    }
+
+    .txt-banner-depoimentos p {
+        width: 100%;
+        font-size: .97rem;
+    }
+
+    .banner-depoimentos a {
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    .txt-banner-depoimentos h5 {
+        font-size: 1.8rem;
+    }
 }

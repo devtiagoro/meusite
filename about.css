@@ -7,7 +7,7 @@
 }
 
 #boxes_sobre {
-    width: 40%;
+    width: 45%;
 
     display: flex;
     flex-direction: column;
@@ -29,6 +29,8 @@
 
 .box p {
     text-align: justify;
+    font-size: .94rem;
+
 }
 
 #txt_sobre {
@@ -36,6 +38,10 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+#txt_sobre p {
+    font-size: .94rem;
 }
 
 #txt_sobre button {
@@ -73,4 +79,93 @@
     position: relative;
     bottom: -6px;
     left: 5px;
+}
+
+.btn {
+    width: 50%;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {    
+    #sobre {
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    #boxes_sobre {
+        width: 50%;
+    }
+
+    .btn {
+        width: 60%;
+        
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {    
+    #sobre {
+        flex-direction: column-reverse;
+    }
+
+    #boxes_sobre {
+        width: 90%;
+        text-align: center;
+    }
+
+    .box p {
+        text-align: center;
+        font-size: .94rem;
+    }
+
+    #txt_sobre {
+        width: 100%;
+        text-align: center;
+    }
+
+    #txt_sobre p {
+        width: 95%;
+        font-size: .94rem;
+        margin: 0 auto;
+    }
+
+    .btn {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #sobre {
+        flex-direction: column-reverse;
+    }
+
+    #boxes_sobre {
+        width: 100%;
+        text-align: center;
+    }
+
+    .box p {
+        text-align: center;
+        font-size: .94rem;
+    }
+
+    #txt_sobre {
+        width: 100%;
+        text-align: center;
+    }
+
+    #txt_sobre p {
+        font-size: .94rem;
+    }
+
+    .btn {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto 20px;
+    }
 }

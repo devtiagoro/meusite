@@ -27,3 +27,17 @@ footer {
 .copy {
     font-size: 10px;
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .conteudo-footer {
+        flex-direction: column-reverse;
+        gap: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo-footer {
+        flex-direction: column-reverse;
+        gap: 3px;
+    }
+}
