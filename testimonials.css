@@ -176,11 +176,13 @@ cite {
     }
 
     .banner-depoimentos a {
-        width: 60%;
+        width: 95%;
         margin-top: 20px;
     }
 
     .txt-banner-depoimentos h5 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin-bottom: 10px;
     }
 }
