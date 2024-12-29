@@ -100,7 +100,7 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {    
+@media (min-width: 481px) and (max-width: 768px) {      
     #metodo a {
         width: 50%;
     }
@@ -118,7 +118,7 @@
 
 @media (max-width: 480px) {
     #metodo {
-        width: 100%;
+        width: 90%;
     }
     #metodo a {
         width: 70%;
@@ -131,6 +131,6 @@
     }
 
     .etapas {
-        width: 90%;
+        width: 100%;
     }
 }
